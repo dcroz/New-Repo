@@ -34,6 +34,7 @@ GEM
     rack (1.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rb-readline (0.5.2)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
@@ -64,5 +65,6 @@ PLATFORMS
 DEPENDENCIES
   capybara
   pry-byebug
+  rb-readline
   rspec
   selenium-webdriver
